@@ -6,23 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Abanoub-firstOne';
-  todoArray=[];
-
-  addTodo(value) {
-    if (value == "") {
-      console.log(" Blank Record");
-    } else {
-    this.todoArray.push(value)
-    }
-    console.log(this.todoArray)
-  }
-
-  deleteItem(todo) {
-    for(let i=0 ;i<= this.todoArray.length ;i++) {
-      if(todo == this.todoArray[i]) {
-        this.todoArray.splice(i,1)
-      }
-    }
-  }
+  title='app';
 }
