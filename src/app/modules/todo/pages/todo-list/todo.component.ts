@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-todo-list',
+  templateUrl: './todo.component.html',
+  styleUrls: ['./todo.component.css']
 })
-export class AppComponent {
+export class todoComponent {
   title = 'Abanoub-firstOne';
   todoArray=[];
 

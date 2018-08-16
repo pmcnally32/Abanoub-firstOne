@@ -9,7 +9,8 @@ const routes: Routes = [
         path: '',
         component: LayoutComponent,
         children: [
-            { path: '', loadChildren: 'app/modules/landing/landing.module#LandingModule' }
+            { path: '', loadChildren: 'app/modules/landing/landing.module#LandingModule' },
+            { path: 'todo', loadChildren: 'app/modules/todo/todo.module#UsersModule' }
         ]
     }
 ];
